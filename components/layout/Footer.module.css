@@ -1,0 +1,35 @@
+.footer {
+  background-color: #D3D3D3;
+  color: black;
+  font-size:small;
+
+}
+
+.footertext {
+  margin-top: 20px;
+  margin-left:20px;
+  font-weight:bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.footerul{
+  list-style:none;
+  margin-top:20px;
+}
+.footerlist{
+  text-align:left;
+  font-family:'Times New Roman', Times, serif;
+  list-style:none;
+}
+
+.footersocial{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  margin-top:100px;
+  font-size:small;
+
+
+}
+
+.footerimg{
+  margin-top:30px;
+  margin-left:10px;
+}

@@ -1,0 +1,17 @@
+.item {
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+}
+
+.cardBody{
+  background-color:#D3D3D3;
+}
+
+.cardTitle{
+  font-family:'Times New Roman', Times, serif;
+  font-weight:bold;
+  align-items:center;
+  justify-content: center;
+  text-align:center;
+}

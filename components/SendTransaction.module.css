@@ -1,0 +1,12 @@
+.SendTransaction {
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    font-family:'Times New Roman', Times, serif;
+  }
+
+  .sendText{
+    font-family:'Times New Roman', Times, serif;
+    margin-bottom:0.3em;
+    font-weight:bold;
+  }
