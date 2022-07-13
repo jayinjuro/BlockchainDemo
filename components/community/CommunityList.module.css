@@ -1,0 +1,46 @@
+.list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .title{
+    font-family:'Times New Roman', Times, serif;
+    font-size:1rem;
+    font-weight:bold;
+  }
+
+  /* .button{
+    font-size:0.2rem;
+    width:40px;
+    height:20px;
+    
+  } */
+
+  .top{
+    font-size:0.25rem;
+    text-align:center;
+  }
+
+.actions {
+    text-align: right;
+    font-size:0.2rem;
+    width:30px;
+    height:20px;
+  }
+  
+.actions button {
+    font: inherit;
+    cursor: pointer;
+    background-color: #77002e;
+    color: white;
+    border: 1px solid #77002e;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+  
+.actions button:hover,
+.actions button:active {
+    background-color: #a50e48;
+    border-color: #a50e48;
+  }

@@ -10,8 +10,8 @@ import ibRisk from '../components/img/ibrisk.jpg'
 function About(){
 
     return <div align="center">
-        <Image variant="top" src={juroIntro} width="1000" height="1200"></Image>
-        <Image variant="top" src={juroProduct} width="1000" height="1300"></Image>
+        <Image variant="top" src={juroIntro} width="1000" height="1400"></Image>
+        <Image variant="top" src={juroProduct} width="1000" height="1400"></Image>
         <Image variant="top" src={uroSys} width="1000" height="1400"></Image>
         <Image variant="top" src={ibRisk} width="1000" height="1200"></Image>
         <FooterPage></FooterPage>

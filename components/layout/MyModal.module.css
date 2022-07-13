@@ -1,0 +1,32 @@
+.ModalBody{
+    background-color:#E2E2E2;
+
+}
+
+.ModalHeader{
+    background-color:#E2E2E2;
+
+}
+
+.ModalFooter{
+    background-color:#E2E2E2;
+}
+
+.ModalList{
+    list-style:none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.ModalButton{
+    margin-bottom:1em;
+    margin-left:2em;
+}
+
+.ModalImage{
+    margin-left:3em;
+    margin-top:1em;
+}
+
+.ModalTokenName{
+    font-weight:bold;
+}

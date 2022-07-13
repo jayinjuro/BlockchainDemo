@@ -1,0 +1,36 @@
+.detail {
+    text-align: center;
+  }
+  
+  .detail img {
+    width: 100%;
+  }
+
+  .button{
+    font-size:0.2rem;
+    width:40px;
+    height:20px;
+    
+  }
+
+
+  .actions {
+    text-align: right;
+  }
+  
+  .actions button {
+    font: inherit;
+    cursor: pointer;
+    background-color: #77002e;
+    color: white;
+    
+    border: 1px solid #77002e;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+  
+  .actions button:hover,
+  .actions button:active {
+    background-color: #a50e48;
+    border-color: #a50e48;
+  }

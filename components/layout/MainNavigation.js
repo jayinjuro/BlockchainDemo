@@ -17,7 +17,7 @@ function MainNavigation(props) {
       <Container fluid>
         <Navbar.Brand>
           <Link href="/">
-            <div className={classes.header}><a href="/">Juro Instruments</a></div>
+            <div className={classes.header}><a href="/">LIKE</a></div>
           </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -48,8 +48,11 @@ function MainNavigation(props) {
             /> */}
           <Nav>
           </Nav>
-          {props.account&&<Button variant="warning" className={classes.navButton} onClick={props.logout}>Change Account</Button>}
-          {!props.account&&<Button variant="warning"  className={classes.navButton} onClick={props.login}>Connect</Button>}
+          {!props.isLoggedIn &&<Button variant="success" className={classes.logoutButton} onClick={props.loginClick}>Login</Button>}
+          {props.isLoggedIn &&<Button variant="success" className={classes.logoutButton} onClick={props.logoutClick}>Logout</Button>}
+          {!props.isLoggedIn &&<Button variant="success" className={classes.logoutButton} onClick={props.createClicked}>Create Account</Button>}
+          {props.isLoggedIn&&props.account&&<Button variant="warning" className={classes.navButton} onClick={props.logout}>Change Wallet</Button>}
+          {props.isLoggedIn&&!props.account&&<Button variant="warning"  className={classes.navButton} onClick={props.login}>Connect</Button>}
         </Navbar.Collapse>
       </Container>
     </Navbar>

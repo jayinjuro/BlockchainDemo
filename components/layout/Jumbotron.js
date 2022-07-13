@@ -15,15 +15,36 @@ function Jumbotron(props) {
         JuroToken, Be an owner of UROSYS
       </p>
       {props.account && <p className={classes.jumboamount}>
+        Welcome {props.account}
+      </p>}
+      {props.account && <p className={classes.jumboamount}>
         You owns {props.amount} JuroToken
       </p>}
+      {props.account && <p className={classes.jumboamount}>
+        You owns {props.uroamount} UroSysToken
+      </p>}
+      {props.account && <p className={classes.jumboamount}>
+        You owns {props.riskamount} RiskWeatherToken
+      </p>}
       <Stack direction="horizontal" gap={3}>
-        {!props.account && <Button variant="dark" className={classes.jumbobutton} onClick={props.click}>
+        {!props.account && !props.isLoggedIn &&<Button variant="dark" className={classes.jumbobutton} onClick={props.loginClick}>
+          Login
+        </Button>}
+        {props.isLoggedIn &&<Button variant="dark" className={classes.jumbobutton} onClick={props.logoutClick}>
+          Logout
+        </Button>}
+        {!props.account && props.isLoggedIn &&<Button variant="dark" className={classes.jumbobutton} onClick={props.click}>
           Connect
+        </Button>}
+        {props.account && <Button variant="dark" className={classes.jumbobutton} onClick={props.unClick}>
+          Change Wallet
         </Button>}
         {props.account && <Button variant="dark" className={classes.jumbobutton} onClick={props.buyclick}>
           Get Token
         </Button>}
+        {/* {props.account && <Button variant="dark" className={classes.jumbobutton} onClick={props.disconnect}>
+          Disconnect
+        </Button>} */}
       </Stack>
     </div>
   );
