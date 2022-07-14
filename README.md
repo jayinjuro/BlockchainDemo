@@ -45,8 +45,6 @@ To interact and modify the smart contract, you need 5.4.1 version of truffle ins
     "styled-components": "^5.3.5",
     "truffle-hdwallet-provider": "^1.0.17",
     "web3": "^1.7.4"
-    
-dev dependencies:
     "file-loader": "^6.2.0",
     "url-loader": "^4.1.1",
     "webpack": "^4.46.0"
