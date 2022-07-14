@@ -1,4 +1,4 @@
-### BlockChain Project Demo
+# BlockChain Project Demo
 
 
 ## Running locally in development mode
