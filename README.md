@@ -1,11 +1,10 @@
-# DBwebpage
-
-![image](https://user-images.githubusercontent.com/75458741/165089677-1a86b78f-b138-47b4-82c1-c610d883fa74.png)
+### BlockChain Project Demo
 
 
-This is a Front-end DB web application,
-using React.js and Next.js
+## Running locally in development mode
 
-We are going to add more functions.
+To get started, just clone the repository and run `npm install && npm run dev`:
 
-
+    git clone https://github.com/iaincollins/nextjs-starter.git
+    npm install
+    npm run dev
