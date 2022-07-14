@@ -9,10 +9,9 @@ import riskManage from '../img/riskmanagement.png'
 function Jumbotron(props) {
   return (
     <div className={classes.jumbotron}>
-      <h1 className={classes.jumbotext}>Unified platform for Risk & Asset management</h1>
-      <ul className={classes.jumbolist}><li>Financial Risk Management</li><li>High-performance computing</li><li>Fat-tail model</li></ul>
+      <h1 className={classes.jumbotext}>Investment Banking for Everyone</h1>
+      <ul className={classes.jumbolist}><li>Be the owner of the project</li><li>Active token community</li><li>Trade your token freely</li></ul>
       <p className={classes.jumboamount}>
-        JuroToken, Be an owner of UROSYS
       </p>
       {props.account && <p className={classes.jumboamount}>
         Welcome {props.account}
@@ -38,9 +37,6 @@ function Jumbotron(props) {
         </Button>}
         {props.account && <Button variant="dark" className={classes.jumbobutton} onClick={props.unClick}>
           Change Wallet
-        </Button>}
-        {props.account && <Button variant="dark" className={classes.jumbobutton} onClick={props.buyclick}>
-          Get Token
         </Button>}
         {/* {props.account && <Button variant="dark" className={classes.jumbobutton} onClick={props.disconnect}>
           Disconnect

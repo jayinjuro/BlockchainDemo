@@ -2,6 +2,7 @@
   /* background-color: white; */
   padding-left: 30px;
   padding-right: 60px;
+
   margin-bottom: 10px;
   padding-bottom: 50px;
   /* padding-top: 120px; */
@@ -11,29 +12,38 @@
   /* background-image: url("../img/img1.jpg.crdownload");
   background-size: cover; */
   background-color: white;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 .jumboimage{
   margin-bottom:2em;
 }
 .jumbotitle {
-  font-size: 60px;
-  font-family:'Times New Roman', Times, serif;
-  margin-bottom: 2em;
+  font-weight:bold;
+  font-family:Arial, Helvetica, sans-serif;
+  color:#1A2B6B;
+  border-radius:4px;
+  font-size:32px;
 }
 
 .jumbotext {
-  font-size: 50px;
   margin-bottom: 1.5em;
   margin-top:1em;
   font-weight:bold;
-  font-family:'Times New Roman', Times, serif;
+  font-family:Arial, Helvetica, sans-serif;
+  color:#1A2B6B;
+  border-radius:4px;
+  font-size:32px;
   
 }
 .jumbolist {
-  font-size: 35px;
+  list-style:none;
+  font-size: 25px;
   margin-bottom: 1.5em;
   margin-top:1.5em;
-  font-family:'Times New Roman', Times, serif;
+  font-weight:bold;
+  font-family:Arial, Helvetica, sans-serif;
+  color:#1A2B6B;
 }
 
 .jumbobutton {
@@ -41,9 +51,12 @@
 }
 
 .jumboamount{
-  font-size:30px;
-  margin-bottom:1em;
-  font-family:'Times New Roman', Times, serif;
+  font-size:20px;
+  font-weight:bold;
+  font-family:Arial, Helvetica, sans-serif;
+  color:black;
+  border-radius:6px;
+  margin-bottom:0.5em;
 }
 
 .amount{
